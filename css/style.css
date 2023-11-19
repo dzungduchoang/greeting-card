@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Dancing Script";
+    font-weight: 700;
+    background: #000;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.greeting-card {
+    max-width: 400px;
+    padding: 10px;
+    margin: 25px 15px;
+}
+
+.area-img {
+    text-align: center;
+}
+
+.area-img img {
+    max-width: 50%;
+    cursor: pointer;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff7979;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+input {
+    display: block;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+input#write-name {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0px 0px 2px 0px;
+    flex-basis: 60%;
+    border-bottom: 2px solid #ff7979;
+    margin-bottom: 20px;
+}
+
+input#write-name::placeholder {
+    color: #fff;
+}
+
+input#send {
+    background: #199754;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #e4e3e3;
+}
+
+input#send:hover {
+    background: #20bf6b;
+    color: #fff;
+}
+
+.description p {
+    display: none;
+    text-align: center;
+}
+
+.content {
+    color: #fff;
+    display: none;
+    font-size: 1.5rem;
+}
+
+.content span {
+    display: inline-block;
+}
+
+span.yourname {
+    color: #D980FA;
+    font-size: 28px;
+}
+
+.myname {
+    color: #FDA7DF !important;
+    margin: 2px 0px;
+}
+
+.content p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.ending {
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content svg {
+    display: none;
+    color: red;
+    margin: 2px 0px 2px 10px;
+}
